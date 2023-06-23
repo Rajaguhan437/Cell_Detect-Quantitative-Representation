@@ -8,7 +8,7 @@
   
  ## ***[Cell Detection ](https://colab.research.google.com/github.com/Rajaguhan437/Cell_Detect-Quantitative-Representation/blob/main/Cell_Detection/Code/Cell_detect_Yolov5.ipynb) :***
 
--   ### Dataset : [90 Train + 10 val RBC/WBC Image Dataset with Annotation](https://www.dropbox.com/sh/v6epaau1kh7ofyj/AADOJsX-ghd70tn_ds1aDJtMa?dl=0)
+-   ### Dataset : [90 Train + 10 val RBC/WBC Image Dataset with Annotation](https://www.dropbox.com/sh/v6epaau1kh7ofyj/AADOJsX-ghd70tn_ds1aDJtMa?dl=0). And chose to go with this dataset because there were no datasets with many different types of classes(cells) i.e, more than 3 or more with annotated data. 
     &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Sample Image
 
 
@@ -16,6 +16,7 @@
 
 
   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Input-Image&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Annotated-Labelled Image
+
 
 -  ### Object-Detection Model : Custom Trained **[Yolov5](https://github.com/ultralytics/yolov5)**
   
