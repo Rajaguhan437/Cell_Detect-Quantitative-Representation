@@ -55,16 +55,27 @@ SAM is a promptable segmentation system with zero-shot generalization to unfamil
 
 -  **SAM without any training segmnented the cells but the results were very good except the fact that it didn't segment WBCs.**
 
--  **So, thought of custom training but it was a not a easy process. So, chose to go with Yolo Family.**
+-  **So, thought of custom training but it was a not a easy process. So, chose to go with ***Yolo Family***.**
 
-    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Image**
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**Images**
 
 
-    &emsp;&emsp;![Input Image](<Cell_Detection/Dataset/RBC_WBC-dataset/cells/images/train/image-1.png>) ![Annotated Label-Image](<Cell_Image_Quantitative_Analysis/Segmentation/SAM-seg/segment_overlay.jpg>)
+    &emsp;&emsp;![Input Image](<Cell_Detection/Dataset/RBC_WBC-dataset/cells/images/train/image-1.png>) ![Segmented Output-Image](<Cell_Image_Quantitative_Analysis/Segmentation/SAM-seg/resized_segment_overlay.jpg>)
 
 
   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Input-Image&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Annotated-Labelled Image
+  
+##  ***Yolov8-seg Model :***
 
+-   **Introducing [Ultralytics YOLOv8](https://ultralytics.com/yolov8), the latest version of the acclaimed real-time object detection and image segmentation model. YOLOv8 is built on cutting-edge advancements in deep learning and computer vision, offering unparalleled performance in terms of speed and accuracy. Its streamlined design makes it suitable for various applications and easily adaptable to different hardware platforms, from edge devices to cloud APIs.**
+
+-   **Super Fast with great accuracy and highly user friendly usage and docs.**
+
+-   **Dataset : [2884 images with its segmented masks images which consists of 10 different type of classes(cells) such as Basophil, Eosinophil, Erythroblast, Intrusion, Lymphocyte, Monocyte, Myelocyte, Neutrophil, Platelet, RBC.](https://universe.roboflow.com/academie-militaire/oussama)**
+
+-   **Started Custom Training, but the training time for yolov8-seg was so long that it took around 8:30 mins for each epoch which ultimately burned my google colab free gpu units.**
+
+-   **So, now decided to go with already trained Yolov5-det model.**
 
 
  
