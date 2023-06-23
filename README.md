@@ -6,7 +6,7 @@
 -   ### **2. CNN[Deep Learning] - Based Image Analysis for Quantitative Representation** 
 
   
- ## ***[Cell Detection ](https://colab.research.google.com/github/Rajaguhan437/Cell_Detect-Quantitative-Representation/blob/main/Cell_Detection/Code/Cell_detect_Yolov5.ipynb) :***
+ ## ***[Cell Detection](https://colab.research.google.com/github/Rajaguhan437/Cell_Detect-Quantitative-Representation/blob/main/Cell_Detection/Code/Cell_detect_Yolov5.ipynb) :***
 
 -   ### Dataset : [90 Train + 10 val RBC/WBC Image Dataset with Annotation](https://www.dropbox.com/sh/v6epaau1kh7ofyj/AADOJsX-ghd70tn_ds1aDJtMa?dl=0). And chose to go with this dataset because there were no datasets with many different types of classes(cells) i.e, more than 3 or more with annotated data. 
     &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Sample Image
@@ -32,7 +32,7 @@
           ![Yolo_val_detect](<Cell_Detection/Results/yolo_val_dect.png>)
 
     -   4.
-        ###  Bounding Box Detections, Confidence Scores, Class of each cell are stored in this [Excel Sheet](Cell_Detection/Results/cell_data.xlsx)
+        ###  Bounding Box Detections, Confidence Scores, Class of each cell are stored in this [Excel Sheet](Cell_Detection/Results/cell_data.xlsx) with the help pandas python library.
 
               
 ## ***CNN[Deep Learning] - Based Image Analysis for Quantitative Representation :***
@@ -47,7 +47,7 @@
 -   ### **3. Yolov5-det Model**
 
 
-##  ***[SAM Model ](https://colab.research.google.com/github/Rajaguhan437/Cell_Detect-Quantitative-Representation/blob/main/Cell_Image_Quantitative_Analysis/Segmentation/SAM-seg/SAM_seg.ipynb) :***
+##  ***[SAM Model](https://colab.research.google.com/github/Rajaguhan437/Cell_Detect-Quantitative-Representation/blob/main/Cell_Image_Quantitative_Analysis/Segmentation/SAM-seg/SAM_seg.ipynb) :***
 
 -  **[Segment Anything Model (SAM)](https://segment-anything.com/) : a new AI model from Meta AI that can "cut out" any object, in any image, with a single click
 SAM is a promptable segmentation system with zero-shot generalization to unfamiliar objects and images, without the need for additional training.**
@@ -118,7 +118,7 @@ SAM is a promptable segmentation system with zero-shot generalization to unfamil
 -   ### All properties were computed using Computer Vision[cv2] & Scikit-Learn Python Libs.
 
   
--   ### All the above properties are stored in [Excel Sheet](Cell_Image_Quantitative_Analysis/Quantitaive_Analysis/output/cell_data.xlsx)
+-   ### All the above properties are stored in [Excel Sheet](Cell_Image_Quantitative_Analysis/Quantitaive_Analysis/output/cell_data.xlsx) with the help of pandas library. 
 
 
 ##  ***Note :***
@@ -128,6 +128,17 @@ SAM is a promptable segmentation system with zero-shot generalization to unfamil
 -   ### But Detailed Description of how it's done can be traced back to my other repo python files such as [Segment Anything Model [SAM from META]](https://colab.research.google.com/github/Rajaguhan437/AI-Generation_SEGmnt/blob/main/Inpaint_Seg/SAM/code/Inpainting_SAM.ipynb) and [CLIP Model [from OpenAI]](https://colab.research.google.com/github/Rajaguhan437/AI-Generation_SEGmnt/blob/main/Inpaint_Seg/CLIP/code/Inpainting_CLIP.ipynb)
 
 
+##  ***Extras :***
+
+-  ### Google Colab Link for each Jupyter Notebook which enables instant accessing of the files.
+
+    -  ### ***[Cell_detect_Yolov5.ipynb](https://colab.research.google.com/github/Rajaguhan437/Cell_Detect-Quantitative-Representation/blob/main/Cell_Detection/Code/Cell_detect_Yolov5.ipynb)***
+
+    -  ###  ***[SAM_seg.ipynb](https://colab.research.google.com/github/Rajaguhan437/Cell_Detect-Quantitative-Representation/blob/main/Cell_Image_Quantitative_Analysis/Segmentation/SAM-seg/SAM_seg.ipynb)***
+
+    -  ###  ***[Yolov8_seg.ipynb](https://colab.research.google.com/github/Rajaguhan437/Cell_Detect-Quantitative-Representation/blob/main/Cell_Image_Quantitative_Analysis/Segmentation/Yolov8-seg/Yolov8_seg.ipynb)***
+
+    -  ###  ***[yolov5_detseg.ipynb](https://colab.research.google.com/github/Rajaguhan437/Cell_Detect-Quantitative-Representation/blob/main/Cell_Image_Quantitative_Analysis/Quantitaive_Analysis/code/yolov5_detseg.ipynb)***
     
 
 
