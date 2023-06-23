@@ -6,7 +6,7 @@
 -   ### **2. CNN[Deep Learning] - Based Image Analysis for Quantitative Representation** 
 
   
- ## ***[Cell Detection ](https://colab.research.google.com/github.com/Rajaguhan437/Cell_Detect-Quantitative-Representation/blob/main/Cell_Detection/Code/Cell_detect_Yolov5.ipynb) :***
+ ## ***[Cell Detection ](https://colab.research.google.com/github/Rajaguhan437/Cell_Detect-Quantitative-Representation/blob/main/Cell_Detection/Code/Cell_detect_Yolov5.ipynb) :***
 
 -   ### Dataset : [90 Train + 10 val RBC/WBC Image Dataset with Annotation](https://www.dropbox.com/sh/v6epaau1kh7ofyj/AADOJsX-ghd70tn_ds1aDJtMa?dl=0). And chose to go with this dataset because there were no datasets with many different types of classes(cells) i.e, more than 3 or more with annotated data. 
     &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Sample Image
@@ -47,7 +47,7 @@
 -   ### **3. Yolov5-det Model**
 
 
-##  ***[SAM Model ](https://colab.research.google.com/github.com/Rajaguhan437/Cell_Detect-Quantitative-Representation/blob/main/Cell_Image_Quantitative_Analysis/Segmentation/SAM-seg/SAM_seg.ipynb) :***
+##  ***[SAM Model ](https://colab.research.google.com/github/Rajaguhan437/Cell_Detect-Quantitative-Representation/blob/main/Cell_Image_Quantitative_Analysis/Segmentation/SAM-seg/SAM_seg.ipynb) :***
 
 -  **[Segment Anything Model (SAM)](https://segment-anything.com/) : a new AI model from Meta AI that can "cut out" any object, in any image, with a single click
 SAM is a promptable segmentation system with zero-shot generalization to unfamiliar objects and images, without the need for additional training.**
@@ -66,7 +66,7 @@ SAM is a promptable segmentation system with zero-shot generalization to unfamil
 
   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Input-Image&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Segmented-Masked Image
   
-##  ***[Yolov8-seg Model](https://colab.research.google.com/github.com/Rajaguhan437/Cell_Detect-Quantitative-Representation/blob/main/Cell_Image_Quantitative_Analysis/Segmentation/Yolov8-seg/Yolov8_seg.ipynb) :***
+##  ***[Yolov8-seg Model](https://colab.research.google.com/github/Rajaguhan437/Cell_Detect-Quantitative-Representation/blob/main/Cell_Image_Quantitative_Analysis/Segmentation/Yolov8-seg/Yolov8_seg.ipynb) :***
 
 -   **Introducing [Ultralytics YOLOv8](https://ultralytics.com/yolov8), the latest version of the acclaimed real-time object detection and image segmentation model. YOLOv8 is built on cutting-edge advancements in deep learning and computer vision, offering unparalleled performance in terms of speed and accuracy. Its streamlined design makes it suitable for various applications and easily adaptable to different hardware platforms, from edge devices to cloud APIs.**
 
@@ -79,17 +79,17 @@ SAM is a promptable segmentation system with zero-shot generalization to unfamil
 -   **So, now decided to go with already trained Yolov5-det model.**
 
 
-##  ***[Yolov5-det Model](https://colab.research.google.com/github.com/Rajaguhan437/Cell_Detect-Quantitative-Representation/blob/main/Cell_Image_Quantitative_Analysis/Quantitaive_Analysis/code/yolov5_detseg.ipynb) :***
+##  ***[Yolov5-det Model](https://colab.research.google.com/github/Rajaguhan437/Cell_Detect-Quantitative-Representation/blob/main/Cell_Image_Quantitative_Analysis/Quantitaive_Analysis/code/yolov5_detseg.ipynb) :***
   
 -   **Fast, precise and easy to train, [Ultralytics YOLOv5](https://ultralytics.com/yolov5) has a long and successful history of real time object detection. Treat YOLOv5 as a university where you'll feed your model information for it to learn from and grow into one integrated tool. With YOLOv5 and its  Pytorch implementation, you can get started with less than 6 lines of code.**
 
 -   **With already custom trained yolov5-det model, the Bounding Box Detections, Confidence Scores, Class of each cell are computed and applied on the image.**  
-    &emsp;&emsp;![Input Image](<Cell_Image_Quantitative_Analysis/Quantitaive Analysis/output/each-cell.jpg>) 
+    &emsp;&emsp;![Bounding Box on Each Cell](<Cell_Image_Quantitative_Analysis/Quantitaive Analysis/output/each-cell.jpg>) 
 
 -   **Then each cell are cropped to find its Quantitative Features.**  
-    &emsp;&emsp;![Input Image](<Cell_Image_Quantitative_Analysis/Quantitaive Analysis/output/cropped-cell.jpg>)
+    &emsp;&emsp;![Cropping the Bounded Box Area](<Cell_Image_Quantitative_Analysis/Quantitaive Analysis/output/cropped-cell.jpg>)
     
-##  ***[Cell Image Quantitative Feature Extraction](https://colab.research.google.com/github.com/Rajaguhan437/Cell_Detect-Quantitative-Representation/blob/main/Cell_Image_Quantitative_Analysis/Quantitaive_Analysis/code/yolov5_detseg.ipynb) :***
+##  ***[Cell Image Quantitative Feature Extraction](https://colab.research.google.com/github/Rajaguhan437/Cell_Detect-Quantitative-Representation/blob/main/Cell_Image_Quantitative_Analysis/Quantitaive_Analysis/code/yolov5_detseg.ipynb) :***
 
 -   ### **1. Geometric Properties**
     -   Height
@@ -115,10 +115,19 @@ SAM is a promptable segmentation system with zero-shot generalization to unfamil
 -   ### **4. Intensity Properties**
 
      
--   ### All was found using Computer Vision[cv2] & Scikit-Learn Python Libs.
+-   ### All properties were computed using Computer Vision[cv2] & Scikit-Learn Python Libs.
 
   
 -   ### All the above properties are stored in [Excel Sheet](Cell_Image_Quantitative_Analysis/Quantitaive_Analysis/output/cell_data.xlsx)
+
+
+##  ***Note :***
+
+-   ### Many of the codes were AI Generated through prompting.
+
+-   ### But Detailed Description of how it's done can be traced back to my other repo python files such as [Segment Anything Model [SAM from META]](https://colab.research.google.com/github/Rajaguhan437/AI-Generation_SEGmnt/blob/main/Inpaint_Seg/SAM/code/Inpainting_SAM.ipynb) and [CLIP Model [from OpenAI]](https://colab.research.google.com/github/Rajaguhan437/AI-Generation_SEGmnt/blob/main/Inpaint_Seg/CLIP/code/Inpainting_CLIP.ipynb)
+
+
     
 
 
