@@ -2,8 +2,8 @@
 
 ## ***AIM :***
   
--   **1. Cell Detection**
--   **2. CNN[Deep Learning] - Based Image Analysis for Quantitative Representation** 
+-   ### **1. Cell Detection**
+-   ### **2. CNN[Deep Learning] - Based Image Analysis for Quantitative Representation** 
 
   
 ## ***Cell Detection :***
@@ -16,3 +16,17 @@
 
 
   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Input-Image&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Annotated-Labelled Image
+
+-  ### Object-Detection Model : Custom Trained **[Yolov5](https://github.com/ultralytics/yolov5)**
+
+-  ### Trained Model-Weights on 300 Epochs : [Click Here]()
+
+-  ### Training Output :
+  
+    -   1.  
+          ![Yolo_Layers](<Cell_Detection/Results/yolo_layers.png>)
+  
+    -   2.  
+          ![Yolo_val_detect](<Cell_Detection/Results/yolo_val_dect.png>)
+  
+
