@@ -78,6 +78,19 @@ SAM is a promptable segmentation system with zero-shot generalization to unfamil
 -   **So, now decided to go with already trained Yolov5-det model.**
 
 
+##  ***Yolov5-det Model :***
+  
+-   **Fast, precise and easy to train, [Ultralytics YOLOv5](https://ultralytics.com/yolov5) has a long and successful history of real time object detection. Treat YOLOv5 as a university where you'll feed your model information for it to learn from and grow into one integrated tool. With YOLOv5 and its  Pytorch implementation, you can get started with less than 6 lines of code.**
+
+-   **With already custom trained yolov5-det model, the Bounding Box Detections, Confidence Scores, Class of each cell are computed and applied on the image.**  
+    &emsp;&emsp;![Input Image](<Cell_Image_Quantitative_Analysis/Quantitaive Analysis/output/each-cell.jpg>) 
+
+-   **Then each cell are cropped to find its Quantitative Features.**  
+    &emsp;&emsp;![Input Image](<Cell_Image_Quantitative_Analysis/Quantitaive Analysis/output/cropped-cell.jpg>) 
+
+    
+
+
  
 
 
