@@ -19,7 +19,7 @@
 
 -  ### Object-Detection Model : Custom Trained **[Yolov5](https://github.com/ultralytics/yolov5)**
 
--  ### Trained Model-Weights on 300 Epochs : [Click Here]()
+-  ### Trained Model-Weights on 300 Epochs : [Click Here](Cell_Detection/Results/rbcd/weights)
 
 -  ### Training Output :
   
@@ -28,5 +28,9 @@
   
     -   2.  
           ![Yolo_val_detect](<Cell_Detection/Results/yolo_val_dect.png>)
-  
+
+    
+    -  ### 3. Bounding Box Detections, Confidence Scores, Class of each cell are stored in this [Excel Sheet](Cell_Detection/Results/cell_data.xlsx)
+      
+           
 
