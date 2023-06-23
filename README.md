@@ -18,19 +18,27 @@
   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Input-Image&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Annotated-Labelled Image
 
 -  ### Object-Detection Model : Custom Trained **[Yolov5](https://github.com/ultralytics/yolov5)**
-
--  ### Trained Model-Weights on 300 Epochs : [Click Here](Cell_Detection/Results/rbcd/weights)
+  
 
 -  ### Training Output :
-  
     -   1.  
+        ### Trained Model-Weights on 300 Epochs : [Click Here](Cell_Detection/Results/rbcd/weights)
+        
+    -   2.  
           ![Yolo_Layers](<Cell_Detection/Results/yolo_layers.png>)
   
-    -   2.  
+    -   3.  
           ![Yolo_val_detect](<Cell_Detection/Results/yolo_val_dect.png>)
 
-    
-    -  ### 3. Bounding Box Detections, Confidence Scores, Class of each cell are stored in this [Excel Sheet](Cell_Detection/Results/cell_data.xlsx)
+    -   4.
+        ###  Bounding Box Detections, Confidence Scores, Class of each cell are stored in this [Excel Sheet](Cell_Detection/Results/cell_data.xlsx)
+
+
+
+        
+
+
+        
       
            
 
