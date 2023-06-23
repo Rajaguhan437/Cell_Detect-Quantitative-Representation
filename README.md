@@ -33,6 +33,12 @@
     -   4.
         ###  Bounding Box Detections, Confidence Scores, Class of each cell are stored in this [Excel Sheet](Cell_Detection/Results/cell_data.xlsx)
 
+              
+## ***CNN[Deep Learning] - Based Image Analysis for Quantitative Representation :***
+
+-   ### **1. Cell Segmentation**
+-   ### **2. Cell Image Quantitative Feature Extraction** 
+
 
 
         
